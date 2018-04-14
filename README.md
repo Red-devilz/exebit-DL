@@ -8,8 +8,10 @@ The content of the Workshop broadly covers :
 * Sequence Modelling LSTMs
 
 * For tensorflow playground check out : playground.tensorflow.com
-* Alternately, for playgorund run the follows :
+* To build playground locally :
 	
+	git submodule init
+	git submodule update
 	cd tensorflowPlayground
 	npm install
 	npm run build
